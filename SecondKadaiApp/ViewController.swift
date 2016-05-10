@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myTextField: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        // segueから遷移先のResultViewControllerを取得する
+        let resultViewController:ResultViewController = segue.destinationViewController as! ResultViewController
+
+        // 遷移先のResultViewControllerで宣言しているnameに値を代入して渡す
+        resultViewController.str = myTextField.text!
+    }
+
+    @IBAction func unwind(segue: UIStoryboardSegue) {
+    }
 
 }
-

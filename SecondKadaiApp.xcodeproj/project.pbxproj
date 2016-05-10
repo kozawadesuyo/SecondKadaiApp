@@ -12,6 +12,7 @@
 		98BB16621CC9035C00079DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BB16601CC9035C00079DAB /* Main.storyboard */; };
 		98BB16641CC9035C00079DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BB16631CC9035C00079DAB /* Assets.xcassets */; };
 		98BB16671CC9035C00079DAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BB16651CC9035C00079DAB /* LaunchScreen.storyboard */; };
+		98BB16731CC9075400079DAB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB16721CC9075400079DAB /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		98BB16631CC9035C00079DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98BB16661CC9035C00079DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98BB16681CC9035C00079DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BB16721CC9075400079DAB /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				98BB165C1CC9035C00079DAB /* AppDelegate.swift */,
 				98BB165E1CC9035C00079DAB /* ViewController.swift */,
 				98BB16601CC9035C00079DAB /* Main.storyboard */,
+				98BB16721CC9075400079DAB /* ResultViewController.swift */,
 				98BB16631CC9035C00079DAB /* Assets.xcassets */,
 				98BB16651CC9035C00079DAB /* LaunchScreen.storyboard */,
 				98BB16681CC9035C00079DAB /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				98BB165F1CC9035C00079DAB /* ViewController.swift in Sources */,
 				98BB165D1CC9035C00079DAB /* AppDelegate.swift in Sources */,
+				98BB16731CC9075400079DAB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
